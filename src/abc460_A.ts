@@ -7,8 +7,7 @@ let count = 0;
 
 let v = m;
 
-while(true){
-    if(v === 0) break;
+while(v !== 0){
     count++;
     v = n % v;
 }
